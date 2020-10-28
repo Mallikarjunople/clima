@@ -6,13 +6,24 @@
   font-family: "Open Sans", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #222221;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(49, 49, 49);
+}
 body {
+  /* overflow-y: hidden; */
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(124, 124, 124) 0%,
+    rgb(42, 42, 44) 100%
   );
-  background-image: url(./assets/bvs.jpg);
+  /* background-image: url(./assets/bvs.jpg); */
   background-position: center;
   background-size: cover;
 }
@@ -31,18 +42,25 @@ body {
   background: transparent;
 }
 
-
+.headertext {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+.subs {
+  font-size: small;
+  margin-left: 10px;
+}
 .heading {
   position: relative;
   height: 60%;
-  width: 420px;
-  color: rgb(225, 225, 225);
-  font-size: 40px;
-  font-weight: bold;
-  padding: 5px;
-  background-color: #121314;
+  width: 500px;
+  display: flex;
+  background-color: #808080;
   border-radius: 10px;
-  margin: 10px 10px;
+  margin: 15px 10px;
   align-self: center;
 }
 
@@ -53,6 +71,7 @@ body {
 
 .todo-form {
   margin-bottom: 32px;
+  align-self: center;
 }
 
 .todo-input {
@@ -60,9 +79,10 @@ body {
   border-radius: 4px 0 0 4px;
   border: 2px solid black;
   outline: none;
-  width: 320px;
+  width: 400px;
   background: transparent;
   color: #fff;
+  align-self: center;
 }
 
 .todo-input::placeholder {
@@ -75,12 +95,7 @@ body {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
-  /* background: linear-gradient(
-      90deg,
-      rgb(158, 158, 158) 0%,
-      rgb(58, 58, 58) 100%
-    ); */
-  background: #161a2b;
+  background: #0b0c0c;
   color: #fff;
   text-transform: capitalize;
 }
