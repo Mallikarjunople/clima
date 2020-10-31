@@ -43,7 +43,7 @@ function TodoList() {
         <div className="heading ">
           <img src={batIcon} alt="imgag" style={{ padding: "8px" }}></img>
           <p className="headertext">
-            BatNote<sub className="subs"> For BatFans</sub>
+            BatNote<sub className="subs"> For BatFans!!</sub>
           </p>
         </div>
       </div>
