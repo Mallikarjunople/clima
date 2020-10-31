@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { icons } from "react-icons/lib";
 import batIcon from "../assets/batman-icon.png";
 import Todo from "./Todo";
 import TodoForm from "./TodoForm";
@@ -44,7 +43,6 @@ function TodoList() {
         <div className="heading ">
           <img src={batIcon} alt="imgag" style={{ padding: "8px" }}></img>
           <p className="headertext">
-            {" "}
             BatNote<sub className="subs"> For BatFans</sub>
           </p>
         </div>
