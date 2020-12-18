@@ -6,18 +6,23 @@
  ReactJS is a Javascript library for building UI. <br/>
  For this project, React Hooks played important role during development and also made the code clean, systematic and readable as well.
 </b>
+
+# Tools Usage
+* HTML
+* CSS
+* ReactJS 
+* Bootstrap
+
+
+
 # Project setup
 * Download the project folder
 * open folder in code editor
 * Run command 
-``` 
-$ npm install 
-```
-installs all dependancies required
-```
-$ npm start
-```
-runs project at http://localhost:3000
+```$ npm install ```
+This installs all dependancies required for project<br/>
+```$ npm start```
+This runs project at http://localhost:3000<br/>
 
 # Functions
 * Add new node
