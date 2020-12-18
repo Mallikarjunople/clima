@@ -18,11 +18,13 @@
 # Project setup
 * Download the project folder
 * open folder in code editor
-* Run command 
+#### Commands to run :
+
 ```$ npm install ```
-This installs all dependancies required for project<br/>
+ - This installs all dependancies required for project <br/>
+
 ```$ npm start```
-This runs project at http://localhost:3000<br/>
+ - This runs project at http://localhost:3000 on your default browser. <br/>
 
 # Functions
 * Add new node
