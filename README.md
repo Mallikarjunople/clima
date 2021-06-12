@@ -1,11 +1,11 @@
 # BatNote
-
- #### BatNote is a simple todo web app.<br/>
- <b>The project is given a theme using CSS to make application attractive.
+<p>
+ A simple todo Web application.
+ The project is given a theme using CSS to make application attractive.
  It is developed using ReactJS. Styling was given by custom CSS and Bootstrap.
  ReactJS is a Javascript library for building UI. <br/>
  For this project, React Hooks played important role during development and also made the code clean, systematic and readable as well.
-</b>
+</p>
 
 # Tools Usage
 * HTML
@@ -17,7 +17,7 @@
 
 # Project setup
 * Download the project folder
-* open folder in code editor
+* Open folder in code editor
 #### Commands to run :
 
 ```$ npm install ```
