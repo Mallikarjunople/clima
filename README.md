@@ -7,7 +7,7 @@
  For this project, React Hooks played important role during development and also made the code clean, systematic and readable as well.
 </p>
 
-# Tools Usage
+## Tools Usage
 * HTML
 * CSS
 * ReactJS 
@@ -15,7 +15,7 @@
 
 
 
-# Project setup
+## Project setup
 * Download the project folder
 * Open folder in code editor
 #### Commands to run :
@@ -26,12 +26,12 @@
 ```$ npm start```
  - This runs project at http://localhost:3000 on your default browser. <br/>
 
-# Functions
+## Functions
 * Add new node
 * Edit an existing node
 * Delete an existing node
 
-# Deployment
+## Deployed
 * Project is deployed on Netlify. Following is the link to the deployed project:<br/>
-https://stupefied-chandrasekhar-cf25a6.netlify.app/
+https://batnote.netlify.app/
 
