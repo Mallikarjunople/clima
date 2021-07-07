@@ -34,4 +34,5 @@
 ## Deployed
 * Project is deployed on Netlify. Following is the link to the deployed project:<br/>
 https://batnote.netlify.app/
+.
 
